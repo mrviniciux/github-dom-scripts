@@ -1,3 +1,7 @@
+
+/* 
+ * returns something like ['app/components/file.tsx', 'app/hooks/file.tsx']
+*/
 function getChangedFilesFromFolder(folderPath='') {
 
   if (!folderPath) throw Error(`getChangedFilesFrom expect folder argument`);
